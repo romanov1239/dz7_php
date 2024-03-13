@@ -31,6 +31,15 @@ class Render
             $templateVariables['user_authorized'] = true;
         }
 
+        // Временный код
+        /*
+        ob_start();
+        \xdebug_info();
+        $xdebug = ob_get_clean();
+        $templateVariables['xdebug'] = $xdebug;
+         */
+        //-------
+
         return $template->render($templateVariables);
     }
     public function renderPageWithForm(string $contentTemplateName = 'page-index.tpl', array $templateVariables = []) {

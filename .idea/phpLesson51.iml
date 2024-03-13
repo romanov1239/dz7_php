@@ -10,6 +10,8 @@
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/symfony/polyfill-ctype" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/code/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/code/vendor/psr/log" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
